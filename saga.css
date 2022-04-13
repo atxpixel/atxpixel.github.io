@@ -3,8 +3,10 @@
 #lineup_body {
 font-family: 'Oswald';
 font-weight: 400;
-
+margin-top: 60px;
 }
+
+
 
 .lineup_container {
     background-color: #181a1a;
@@ -58,12 +60,19 @@ text-align: center;
 
  /* Footer - Signout & Playlist */
 .lineup_container_signout {
-background-color: #181a1a;
-display: block;
-padding: 20px;
-text-align: center;
+    margin-top:20px;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(0deg, rgb(0 0 0 / 80%), rgb(80 0 47 / 70%)), url(https://i.imgur.com/u49ZU8o.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0px 20px 0px 20px;
 }
 
+.lineup_container_signout > * {
+    text-shadow: -2px 0px 8px #00000082;
+}
 
 .saga_tu_titlu{
     font-size: 2em;
@@ -84,9 +93,11 @@ text-align: center;
     margin-bottom: 15px;
 }
 .saga_playlist {
-    font-size: 2em;
+    font-size: 50px;
     color: #bc003b;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 
@@ -113,3 +124,10 @@ text-align: center;
 .dashed {
     border-top: 2px dashed #393939;
 }
+
+@media screen and (max-width: 1270px) {
+    .lineup_container_locatie_titlu-festival {
+        border-right: none;
+    }
+  }
+  
