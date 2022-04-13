@@ -84,6 +84,7 @@ text-align: center;
 .saga_tu {
     font-size: 6em;
     color: #ffc348;
+            display: block;
 }
 
 .title_lineup {
@@ -129,5 +130,42 @@ text-align: center;
     .lineup_container_locatie_titlu-festival {
         border-right: none;
     }
+    .lineup_container_locatie_titlu-festival {
+        font-size: 50px;
+    }
+    p.lineup_data {
+        font-size: 30px;
+    }
+    .title_lineup {
+        font-size: 22px;
+        letter-spacing: 7px;
+    }
+    .title_lineup span {
+        display: block;
+    }
+    p.lineup_regular {
+        font-size: 30px;
+        margin-top: 30px !important;
+        margin-bottom: 15px !important;
+    }
+    span.saga_tu {
+        line-height: 1.2em;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .lineup_container_signout {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
   }
-  
+
+  @media screen and (max-width: 700px) {
+
+    span.saga_tu {
+        font-size: 60px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+  }
