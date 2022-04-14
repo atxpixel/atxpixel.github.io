@@ -1,4 +1,8 @@
-
+#container{
+    font-family:'IBM Plex Sans';
+    width: 1240px;
+    margin: 0 auto;
+}
 
 .bg-titlu {
     background-image: url("https://atxpixel.github.io/bg.png");
@@ -30,5 +34,60 @@
     font-weight: 400;
     font-size: 0.6em;
     color: #ffffff;
+
+}
+
+.bg_bf_intrebare {
+    font-face: IBM Plex Sans;
+    background-color: #fff2d6;
+    padding:10px 25px 10px 25px;
+    border-radius: 0 10px 0 10px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.bg_bf_intrebare_wobg {
+    font-face: IBM Plex Sans;
+    padding:10px 25px 10px 0px;
+    border-radius: 0 10px 0 10px;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+.button_abonare {
+    background-color: #eacd49;
+    border-radius: 0 10px 0 10px;
+    font-weight: 500;
+    color: 000;
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+}
+
+.button_abonare:hover {
+    background-color: #cfad28;
+}
+
+.bullet {
+    color: #bc003b;
+}
+
+
+.list-disc2 {
+    list-style-image: url(https://lcdn.altex.ro/render/_next/static/media/star-red.1e82ab82.svg);
+}
+
+
+.div_record {
+    width: 49%;
+    vertical-align: text-top;
+    display: inline-block;
+
+}
+
+.div_record_container {
+
+    border-radius: 0 10px 0 10px;
+    border: 1px solid #c7c7c7;
+    padding:10px 30px;
 
 }
