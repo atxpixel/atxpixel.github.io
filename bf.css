@@ -1,8 +1,3 @@
-#container{
-    font-family:'IBM Plex Sans';
-    width: 1240px;
-    margin: 0 auto;
-}
 
 .bg-titlu {
     background-image: url("https://atxpixel.github.io/bg.png");
@@ -77,6 +72,9 @@
 }
 
 
+
+
+
 .div_record {
     width: 49%;
     vertical-align: text-top;
@@ -89,5 +87,31 @@
     border-radius: 0 10px 0 10px;
     border: 1px solid #c7c7c7;
     padding:10px 30px;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1020px) {
+
+.div_record {
+    width: 100%;
+    vertical-align: text-top;
+    display: block;
+
+}
+
+.div_record_container {
+
+    border-radius: 0 10px 0 10px;
+    border: 1px solid #c7c7c7;
+    padding:10px 30px;
+
+}
+
+
+
 
 }
