@@ -1,0 +1,112 @@
+#container_concurs_saga{
+    margin: 0 auto;
+}
+
+.cerc_concurs {
+background: linear-gradient(45deg, rgba(188,0,59,0.2) 0%, rgba(255,0,80,0.2) 100%);
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid #bc003b;
+margin-bottom: 20px;
+}
+
+
+.cerc_container {
+    margin-right: 50px;
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+vertical-align: text-top;
+}
+
+.cerc_text {
+    font-face: IBM Plex Sans;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.cerc_subtext {
+    font-weight: 400;
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+
+.saga_concurs_titlu{
+    margin-top:20px; margin-bottom: 20px;
+    padding-top: 100px; padding-bottom: 100px;
+    display: block;
+    text-align: center;
+    background: linear-gradient(0deg, rgb(0 0 0 / 80%), rgb(80 0 47 / 70%)), url(https://atxpixel.github.io/saga_concurs_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0px 20px 0px 20px;
+    color: #fff;
+}
+
+.saga_concurs_titlu_span{
+        font-face: IBM Plex Sans;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 5em;
+}
+
+.saga_concurs_titlu_span_small{
+        font-face: IBM Plex Sans;
+    font-weight: 400;
+    font-size: 1.6em;
+
+}
+
+.button_concurs {
+    margin-top: 10px;
+    background-color: #bc003b;
+    border-radius: 0 7px 0 7px;
+    font-weight: 500;
+    font-size: 1em;    color: #fff;
+    text-align: center;
+    padding: 8px 10px 8px 10px;
+    text-decoration: none;
+    border: 0;
+}
+
+.button_concurs:hover {
+    background-color: #741b22;
+}
+
+.titlu_concurs_under{
+            font-face: IBM Plex Sans;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.titlu_concurs_under2{
+            font-face: IBM Plex Sans;
+    font-weight: 600;
+    border-bottom:  2px solid #bc003b;
+    font-size: 2.5em;
+}
+
+@media only screen and (max-width: 1200px) {
+
+.cerc_container {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: text-top;
+    margin-bottom: 30px;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+.cerc_container {
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: text-top;
+    margin-bottom: 30px;
+}
+
+}
