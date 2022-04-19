@@ -1,4 +1,3 @@
-.justify-between {
-    justify-content: space-between;
-    background-color: #000000 !important;
+.content-wrapper.relative.grow.flex.flex-col.justify-between {
+    background-color: #000;
 }
