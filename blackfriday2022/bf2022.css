@@ -180,7 +180,13 @@
 
 .creditare {
 	border-right: 0px solid #aaa;
-	width: 50%;
+    width: 25%;
+}
+
+.titlu_rate {
+	font-size: 1.2em;
+	margin: 0 20px 10px 20px;
+
 }
 
 }
@@ -197,9 +203,10 @@
 
 
 .container{
-	padding-left: 0 !important;
-	padding-right: 0 !important;
+	/* padding-left: 0 !important; */
+	/* padding-right: 0 !important; */
 }
+
 
 .pana_la {
 	margin-top: 5px;
