@@ -1,0 +1,182 @@
+.content-wrapper.relative.grow.flex.flex-col.justify-between {
+        background: #000000 url(https://atxpixel.github.io/blackfriday2022/bg_background_bf.png) no-repeat top center;
+}
+
+.Breadcrumbs {
+    -webkit-overflow-scrolling: touch;
+    display: none;
+}
+
+
+.container_bf {
+	padding: 450px 0 0 0 ;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.container_bf2 {
+	font-family: IBM Plex Sans;
+	background: #000000;
+	margin: 0 auto;
+	max-width: 1240px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 0 0 20px 0;
+}
+
+.reducere_bf {
+	background-image: url(https://atxpixel.github.io/blackfriday2022/bg_bf.png);
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+	width:30%;
+	border: 1px solid #4f4f4f;
+	vertical-align: text-top;
+	text-align: center;
+	height: 440px;
+	transition: all .2s ease-in-out;
+	margin-bottom: 20px;
+}
+
+.reducere_bf:hover {
+	background-image: url(https://atxpixel.github.io/blackfriday2022/bg_bf2.png);
+}
+
+
+.titlu_categorie {
+	font-size: 1.5em;
+	color: #fff;
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.pana_la {
+	text-align: center;
+	font-size: 1.2em;
+	color: #fff;
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+.dobanda {
+	text-align: center;
+	font-size: 1.2em;
+	color: #fff;
+	text-align: center;
+}
+
+.reducere {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	color: #ffc348;
+	text-align: center;
+	font-weight: 800;
+	line-height: 1.1em;
+	padding: 0 10px 0 10px;
+	transition: all .2s ease-in-out;
+}
+
+.rate {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	color: #ffc348;
+	text-align: center;
+	font-weight: 800;
+	line-height: 1.1em;
+	padding: 0 10px 0 10px;
+	transition: all .2s ease-in-out;
+}
+
+.reducere_bf:hover .reducere {
+	  transform: scale(1.07);
+}
+
+
+.reducere_bf:hover {
+	border: 1px solid #ffc348;
+	box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.5);
+}
+
+.categorie {
+	text-align: center;
+	font-size: 1.4em;
+	color: #fff;
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 30px;
+	line-height: 1.1em;
+	padding: 0 10px 0 10px;
+}
+
+
+.reducere_bf img {
+	max-width:80%;
+	max-height:80%;
+	vertical-align: middle;
+	transition: all .2s ease-in-out;
+}
+
+.divider {
+		border: 1px 0 0 0 solid #4f4f4f;
+	}
+
+
+.long_banner {
+	background-image: url(https://atxpixel.github.io/blackfriday2022/long_bg.png);
+	background-size: cover;
+	background-position: center;
+	padding: 10px 10px 10px 10px;
+	border-radius: 10px;
+	border: 1px solid #4f4f4f;
+	vertical-align: text-top;
+	text-align: center;
+	width: 100%;
+	transition: all .2s ease-in-out;
+	margin: 0 20px 20px 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
+}
+
+.creditare {
+	border-right: 1px solid #aaa;
+	width: 33%;
+}
+
+.creditare:last-child {
+	border-right: 0 solid #aaa;
+}
+
+.titlu_rate {
+	color: #fff;
+	font-size: 2em;
+	margin: 0 0 10px 0;
+	border-bottom: 1px solid #ffc348;
+	text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+
+	.reducere_bf {
+	width:42%;
+	min-height: 46vw;
+}
+
+.container_bf {
+	padding: 350px 0 0 0 ;
+
+}
+
+.creditare {
+	border-right: 0px solid #aaa;
+	width: 50%;
+}
+
+}
