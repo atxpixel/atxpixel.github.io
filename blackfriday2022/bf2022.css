@@ -190,7 +190,12 @@
 
 
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 650px) {
+
+.container_bf {
+    padding: 165px 0 0 0;
+}
+
 
 .container{
 	padding-left: 0 !important;
