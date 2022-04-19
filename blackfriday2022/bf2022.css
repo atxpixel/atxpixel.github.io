@@ -168,6 +168,10 @@
 	min-height: 46vw;
 }
 
+	.content-wrapper.relative.grow.flex.flex-col.justify-between {
+        background: #000000 url(https://atxpixel.github.io/blackfriday2022/bg_background_bf_tablet.png) no-repeat top center;
+}
+
 .container_bf {
 	padding: 350px 0 0 0 ;
 
@@ -181,12 +185,6 @@
 }
 
 
-@media only screen and (max-width: 1020px) {
-	.content-wrapper.relative.grow.flex.flex-col.justify-between {
-        background: #000000 url(https://atxpixel.github.io/blackfriday2022/bg_background_bf_tablet.png) no-repeat top center;
-}
-
-}
 
 
 
