@@ -19,7 +19,6 @@
 	font-family: IBM Plex Sans;
 	background: #000000;
 	margin: 0 auto;
-	max-width: 1240px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -185,6 +184,7 @@
 
 
 @media only screen and (max-width: 540px) {
+
 .container{
 	padding-left: 0 !important;
 	padding-right: 0 !important;
@@ -201,10 +201,6 @@ font-size: 1.8em;
 .categorie{
 	font-size: 1.1em;
 }
-
-
-}
-
 
 
 }
