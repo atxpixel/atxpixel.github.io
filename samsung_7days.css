@@ -1,0 +1,59 @@
+.divs_7days{
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.div_categorii {
+	font-family: IBM Plex Sans;
+	border-radius:5px;
+	background-color: #fff;
+	border: 1px solid #c7c7c7;
+	padding: 10px;
+	text-align: center;
+	vertical-align: text-top;
+	width:25%;
+	margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+	.div_categorii {
+	width:40%;
+
+}
+}
+
+.div_categorii:hover {
+    --tw-shadow: 10px 10px 20px 0 rgba(215,18,64,.15),-10px -10px 20px 0 rgba(247,200,16,.15);
+    --tw-shadow-colored: 10px 10px 20px 0 var(--tw-shadow-color),-10px -10px 20px 0 var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+}
+
+
+.span_titlu_7days {
+	font-family: IBM Plex Sans;
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+.div_categorii img {
+max-width:100%;
+max-height:100%;
+}
+
+.button_7days {
+    margin-top: 10px;
+    background-color: #bc003b;
+    border-radius: 0 7px 0 7px;
+    font-weight: 500;
+    font-size: 1em;    color: #fff;
+    text-align: center;
+    padding: 8px 10px 8px 10px;
+    text-decoration: none;
+    border: 0;
+}
+
+.button_7days:hover {
+    background-color: #741b22;
+}
