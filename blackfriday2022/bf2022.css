@@ -34,7 +34,6 @@
 	border: 1px solid #4f4f4f;
 	vertical-align: text-top;
 	text-align: center;
-	height: 440px;
 	transition: all .2s ease-in-out;
 	margin-bottom: 20px;
 }
@@ -119,6 +118,7 @@
 	max-height:80%;
 	vertical-align: middle;
 	transition: all .2s ease-in-out;
+	margin: 0 auto;
 }
 
 .divider {
@@ -147,6 +147,11 @@
 .creditare {
 	border-right: 1px solid #aaa;
 	width: 33%;
+}
+
+.creditare img {
+margin-left: auto !important;
+margin-right: auto !important;
 }
 
 .creditare:last-child {
