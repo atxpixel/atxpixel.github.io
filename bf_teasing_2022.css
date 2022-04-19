@@ -1,3 +1,9 @@
 .content-wrapper.relative.grow.flex.flex-col.justify-between {
-    background-color: #000;
+        background: #000000 url(https://atxpixel.github.io/blackfriday2022/bg_background_bf.png) no-repeat top center;
+        background-size:contain;
+}
+
+.Breadcrumbs {
+    -webkit-overflow-scrolling: touch;
+    display: none;
 }
